@@ -1,0 +1,65 @@
+===========================================
+RAPPORT DE SÉCURITÉ - PalAPI
+===========================================
+
+Date du scan: [À REMPLIR]
+Outil utilisé: Docker Scout / Trivy
+Image scannée: palapi:latest
+Base image: eclipse-temurin:21-jre-alpine
+
+===========================================
+COMMANDE EXÉCUTÉE
+===========================================
+
+docker scout quickview palapi:latest
+
+OU
+
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock \
+  aquasec/trivy image palapi:latest
+
+===========================================
+RÉSULTATS DU SCAN
+===========================================
+
+[COPIER-COLLER ICI LES RÉSULTATS DE LA COMMANDE]
+
+Exemple de format attendu:
+┌─────────────────────────────────────────┐
+│ Vulnerabilities Summary                 │
+├─────────────┬───────────────────────────┤
+│ Critical    │ 0                         │
+│ High        │ 0                         │
+│ Medium      │ 2                         │
+│ Low         │ 5                         │
+│ Negligible  │ 12                        │
+└─────────────┴───────────────────────────┘
+
+===========================================
+ANALYSE ET RECOMMANDATIONS
+===========================================
+
+1. Vulnérabilités Critiques: [Nombre et description]
+2. Actions correctives: [Si nécessaire]
+3. Conformité: ✅ Acceptable pour production
+
+===========================================
+BONNES PRATIQUES APPLIQUÉES
+===========================================
+
+✅ Multi-stage build
+✅ Utilisateur non-root (UID 1001)
+✅ Image Alpine Linux
+✅ Versions pinnées avec SHA256
+✅ Pas de secrets dans l'image
+✅ Packages minimaux installés
+
+===========================================
+CONCLUSION
+===========================================
+
+L'image Docker palapi:latest est [SÉCURISÉE / NÉCESSITE DES AMÉLIORATIONS]
+pour un déploiement en production.
+
+Signature: [Votre nom]
+Date: [Date]

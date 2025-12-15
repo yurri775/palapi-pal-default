@@ -1,0 +1,13 @@
+
+
+  Target             │  palapi:latest                  │    1C    11H    13M     9L   
+    digest           │  0d496e82a92a                   │                              
+  Base image         │  eclipse-temurin:21-jre-alpine  │    0C     3H     4M     3L   
+  Updated base image │  eclipse-temurin:25-jre-alpine  │    0C     3H     3M     2L   
+                     │                                 │                  -1     -1   
+
+What's next:
+    View vulnerabilities → docker scout cves palapi:latest
+    View base image update recommendations → docker scout recommendations palapi:latest
+    Include policy results in your quickview by supplying an organization → docker scout quickview palapi:latest --org <organization>
+

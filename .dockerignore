@@ -1,0 +1,42 @@
+# Git
+.git
+.gitignore
+
+# IDE
+.idea
+*.iml
+.vscode
+*.swp
+*.swo
+
+# Build artifacts
+target/
+!target/*.jar
+*.class
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+docs/
+
+# Docker files (éviter la récursion)
+docker-compose*.yml
+.dockerignore
+
+# Environment files (sécurité)
+.env.local
+.env.*.local
+
+# Tests
+src/test/

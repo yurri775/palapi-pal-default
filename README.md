@@ -10,6 +10,8 @@ API REST complète pour gérer les créatures Pal de l'univers Palworld avec sys
 
 > **Note académique :** Ce projet répond aux exigences du cours de containerisation Docker.
 > Toutes les best practices demandées ont été implémentées et documentées.
+>
+> Nom: AMRANI Ayoub
 
 ## 📋 Table des matières
 

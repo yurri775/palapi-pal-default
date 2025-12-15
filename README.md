@@ -77,7 +77,7 @@ df -h
 
 ```bash
 # Cloner le projet
-git clone https://github.com/votre-username/palapi.git
+https://github.com/yurri775/palapi-pal-default.git
 cd palapi
 
 # Copier les variables d'environnement
